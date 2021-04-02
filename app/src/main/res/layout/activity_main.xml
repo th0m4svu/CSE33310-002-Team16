@@ -39,7 +39,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="44dp"
         android:layout_marginBottom="52dp"
-        android:text="I am 18 or older"
+        android:text="@string/i_am_18_or_older"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ageVerification" />
@@ -52,7 +52,7 @@
         android:layout_marginTop="29dp"
         android:layout_marginEnd="75dp"
         android:layout_marginBottom="110dp"
-        android:text="You must be 18 or older to use this application."
+        android:text="@string/you_must_be_18_or_older_to_use_this_application"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,7 +67,7 @@
         android:layout_marginStart="57dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="52dp"
-        android:text="I AM NOT"
+        android:text="@string/i_am_not"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ageVerification" />

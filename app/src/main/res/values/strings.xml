@@ -11,4 +11,7 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="i_am_18_or_older">I am 18 or older</string>
+    <string name="you_must_be_18_or_older_to_use_this_application">You must be 18 or older to use this application.</string>
+    <string name="i_am_not">I AM NOT</string>
 </resources>
