@@ -33,7 +33,7 @@
         app:srcCompat="@drawable/blaze" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/ofAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -42,10 +42,10 @@
         android:text="I am 18 or older"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/ageVerification" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/ageVerification"
         android:layout_width="264dp"
         android:layout_height="55dp"
         android:layout_marginStart="75dp"
@@ -61,7 +61,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/underAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="57dp"
@@ -70,6 +70,6 @@
         android:text="I AM NOT"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/ageVerification" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
