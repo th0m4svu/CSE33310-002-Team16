@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MBJ-Intro</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="app_name">MaverickBlackjack</string>
+    <string name="todo">TODO</string>
+    <string name="maverick_blackjack">Maverick Blackjack</string>
 </resources>
