@@ -13,9 +13,6 @@ public class MainActivity extends AppCompatActivity {
     Button underAge;
     Button ofAge;
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         ofAge.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent login = new Intent (getApplicationContext(),Login.class);
+                Intent login = new Intent (getApplicationContext(),Loginpage.class);
                 startActivity(login);
             }
         });
