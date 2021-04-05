@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         underAge.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Please get an adult/guardian!",Toast.LENGTH_SHORT).show();
                 Toast.makeText(getApplicationContext(),"Please get an adult/gaurdian!",Toast.LENGTH_SHORT).show();
             }
         });
