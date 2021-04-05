@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         underAge.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Please get an adult/gaurdian!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Please get an adult/guardian!",Toast.LENGTH_SHORT).show();
             }
         });
         //Maps button to push a toast notification-END
@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
         ofAge.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent (getApplicationContext(),activi)
+                Intent login = new Intent (getApplicationContext(),Login.class);
+                startActivity(login);
             }
         });
         //Maps button to send you to login screen-END
