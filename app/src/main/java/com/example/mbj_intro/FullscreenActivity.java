@@ -9,6 +9,10 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
+
+import com.example.maverickblackjack.R;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -94,10 +98,19 @@ public class FullscreenActivity extends AppCompatActivity {
         }
     };
 
+    Button underAge1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
+        underAge1 = findViewById(R.id.underAge);
+        underAge1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "Please get a Parent/Gaurdian!", Toast.LENGTH_SHORT).show();
+            }
+        });
 //        setContentView(R.layout.activity_fullscreen);
 
         mVisible = true;
