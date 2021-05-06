@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tutorial">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.MaverickBlackjack.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.MaverickBlackjack.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_tutorial" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="421dp"
+        android:layout_height="618dp"
+        android:text="The rules of Blackjack are simple: Beat the Dealer.\n\nHow do you beat the dealer?\n\t\t1. By drawing a hand value that is higher than \n\t\tthe dealer's hand value.\n\t\t2. By the dealer drawing a hand value that goes over 21.\n\t\t3. By drawing a hand value of 21 on your first two cards,\n\t\twhen the dealer does not.\n\nHow do you lose to the dealer?\n\t\t1. Your hand value exceeds 21.\n\t\t2. The dealers hand has a greater value than yours\n\t\tat the end of the round.\n\nHow do you find a hand's total value?\nBlackjack is played with a conventional deck of 52\nplaying cards and suits don't matter.\n\t\t1. 2 through 10 count at face value, i.e. a 2 counts as a two\n\t\ta 9 counts as a nine.\n\t\t2. Face cards (J, Q, K) count as 10.\n\t\t3. Ace can count as a 1 or an 11 depending on which value\n\t\thelps the hand the most.\n\nFor Blackjack, the player must place a wager on the table\nto start a hand.\nOnce a wager is placed, the dealer will deal two cards\nface-up to the player, and one card face-up and one \ncard face-down to themself.\nThe player must decide to either hit or stand.\n\t\tHit: The player takes another card from the deck.\n\t\tStand: The player will take no further cards, keeping\n\t\ttheir score.\nIf the player or dealer go over 21, they bust!\nThe winner is decided by who has the highest hand\nthat is less than or equal to 21. Good luck!
+" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

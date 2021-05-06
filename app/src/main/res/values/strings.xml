@@ -14,4 +14,13 @@
     <string name="i_am_18_or_older">I am 18 or older</string>
     <string name="you_must_be_18_or_older_to_use_this_application">You must be 18 or older to use this application.</string>
     <string name="i_am_not">I AM NOT</string>
+    <string name="title_activity_tutorial">tutorial</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
