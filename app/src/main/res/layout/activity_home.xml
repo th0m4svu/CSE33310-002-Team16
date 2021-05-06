@@ -24,6 +24,7 @@
         android:id="@+id/store"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="Visit Store!"
@@ -61,6 +62,13 @@
         android:text="Tutorial"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+=======
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginEnd="141dp"
+        android:text="Visit Store!"
+        app:layout_constraintEnd_toEndOf="parent"
+>>>>>>> e8ce25a9cfb579a79b4a173763fdc485fbda9b0b
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

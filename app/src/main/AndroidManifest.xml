@@ -9,11 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaverickBlackjack">
+<<<<<<< HEAD
         <activity
             android:name=".tutorial"
             android:label="@string/title_activity_tutorial"
             android:theme="@style/Theme.MaverickBlackjack.NoActionBar"></activity>
         <activity android:name=".home" />
+=======
+        <activity android:name=".home"></activity>
+>>>>>>> e8ce25a9cfb579a79b4a173763fdc485fbda9b0b
         <activity android:name=".Login" />
         <activity
             android:name=".ui.login.LoginActivity"
